@@ -1,0 +1,384 @@
+*{
+    
+    color:black;
+    text-align: center;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+/* 
+    p::first-line{color:blue ;
+        font-varient:small-caps;} */
+
+
+/* 
+        p::first-letter{
+            color: aqua;
+            font-size: 20px;
+        }
+         */
+
+/* 
+         p::before{
+            content:url(pic.gif);}
+ */
+
+ /* p::after{
+    content:url(pic.gif);
+ }
+    
+  */
+
+/* 
+  ::marker{
+    color: aqua;
+    font-size: 30px;
+  } */
+
+
+
+  p::selection{
+    color: blue;
+    background-color: darkslateblue;
+  }
+
+button:focus{
+    background-color: aqua;
+    color: blue;
+    box-shadow: 0px 0px 0px 3px gray;
+}
+
+h1{
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 10px black;
+    display: flex;
+    flex: center;
+    justify-content: center;
+    
+    justify-self: center;
+    align-items: center;
+    
+}
+H2{
+     font-weight: 500;
+    text-align: center;
+    text-shadow: 10px gray;
+    display: flex;
+    flex: center;
+    justify-content: center;
+    
+    justify-self: center;
+    align-items: center;
+}
+
+/* 
+div{
+    
+    height: 100px;
+    width: 100px;
+    background-image: url("logo cbse.png");
+    background-size: cover;
+    position:fixed;
+    top:50px;
+    right:0px;
+} */
+
+
+
+div{
+    display: inline-block;
+    border-color:2px solid black;
+}
+
+#container{
+    
+    border: 2px solid black ;
+    
+    /* align-items: flex-end; */
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+     align-items: flex-start;
+     /* align-content: flex-end; */
+    
+    
+    
+}
+
+
+#box8{
+border: 2px solid black;
+
+    height: 100px;
+    width: 150px;
+    /* flex-shrink: 30; */
+
+
+}
+
+#box9{
+     border:2px solid black;
+    
+   
+    height: 225px;
+    width: 150px;
+    flex-shrink: 0;
+    flex-grow: 3;
+}
+
+#box10{
+    border:2px solid black;
+
+    
+    height: 50px;
+    width: 150px;
+}
+#box11{
+    border: 2px    solid black;
+    height: 100px;
+    width: 150px;
+    flex-grow: 4;
+}
+#box12{
+    border: 2px solid black;
+    height:100px;
+    width:150px;
+}
+div{
+    background-color: pink;
+    height: 100px;
+    width:100px;
+
+}
+/* @media(width:600px){
+    div{
+        background-color: red;
+
+    }
+} */
+/* @media(min-width:600px) and (max-width:1000px){
+    div{
+background-color: greenyellow;
+    }
+} */
+
+
+
+
+
+
+.box{
+    height:500px;
+    width: 800px;
+    border:2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.box1{
+    height:100px;
+    width: 100px;
+    border:2px solid black;
+    background-color: blue;
+}
+
+.box2{
+    height:100px;
+    width: 100px;
+    border:2px solid black;
+    background-color:red;
+
+
+}
+
+
+
+.box3{
+    height:100px;
+    width: 100px;
+    border:2px solid black;
+    background-color:yellowgreen;
+
+}
+
+
+
+
+
+@media (max-width:400px){
+.box{
+    flex-direction: column;
+
+
+}
+}
+
+
+
+
+
+.animation{
+    height: 300px;
+    width:300px;
+    background-image:url("footer image.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+@keyframes {
+    from{
+        background-color:yellow}
+    
+    to{background-color: blue;}
+    
+    
+}
+
+
+
+
+
+
+.container{
+    width:800px;
+    height:600px;
+    border:2px solid black;
+     display: flex;
+     justify-content:center ; 
+    align-items: center; 
+}
+
+.box4{
+    width: 50px;
+
+    height:50px;
+    border:2px solid black;
+    
+    
+   
+}
+
+
+.box4{
+
+     
+     /* transition-delay: 1s;
+    transition-duration: 3s;
+    transition-property: width;
+    transition-timing-function: ease-in-out;  */
+
+ animation-name:  box4;
+ animation-iteration-count: infinite;
+ animation-delay: 1s;
+ animation-duration: 3s;
+    
+
+}
+
+
+
+
+
+@keyframes box4 {
+     0%{transform:translate(0,0) ;
+
+        
+        
+
+    }
+
+     25%{transform: translate(250px,0px); 
+         
+        
+    }
+
+    50%{
+         transform: translate(250px,250px); 
+         
+        
+    }
+
+    75%{
+        transform: translate(0px,250px);
+         
+        
+    }
+
+    100%{
+         transform: translate(0px,0px); 
+        
+    }
+
+}
+
+
+
+ .box4:hover{
+
+
+     width: 200px;
+    
+    border:2px solid orange; 
+
+
+
+
+    
+     /* it is used for shifting
+transform:translate(30px); */
+
+
+/* 
+    transform: scaleX(2);
+    transform: scaleY(2); */
+
+
+   /* transform: rotate(180deg) */
+
+
+   /* transform: skew(70deg) */
+
+
+
+
+
+}
+
+
+.loder{
+
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    border:2rem solid goldenrod;
+    border-top: 2rem solid greenyellow;
+    background-color: rgb(9, 152, 4);
+    Animation:loder-color 1s linear 1s infinite normal;
+    
+}
+
+.loder:hover{
+    border-top:2rem solid transparent;
+    background-color: transparent;
+
+    
+   
+}
+
+@keyframes loder-color{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+
+}

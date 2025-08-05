@@ -1,0 +1,543 @@
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.header{
+
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 35px 12%;
+     background-color: rgba(0,0,0,0.8);
+     backdrop-filter: blur(10px);
+     display: flex;
+     justify-content:space-between ;
+     align-items: center;
+      z-index:100; 
+
+}
+
+.logo{
+    font-size:25px;
+    color:white;
+    font-weight: 600;
+    transition: 0.3s ease;
+
+}
+span{
+    color:orangered;
+
+}
+.logo:hover{
+    color: orangered;
+    text-shadow: 0 0 25px orangered,
+                 0  0 50px orangered;
+    transform: scale(1.2);            
+
+        
+    }
+
+
+.navbar{
+   
+    font-size: 18px;
+    color:white;
+    font-weight: 500;
+    margin:0 20px;
+    border-bottom:3px solid transparent;
+    transition: 0.3s ease;
+}
+
+
+.nav-con{
+    margin-right: 40px;
+    color:white;
+
+
+}
+.navbar a:hover,
+.navbar a.active{
+    color:orangered;
+    border-bottom: 3px solid orangered;
+}
+
+
+
+
+    .contack{
+        padding:10px 28px;
+    background-color: white;
+    color:black;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600px;
+    transition: 0.3s ease;
+    }
+
+    .contack:hover{
+    background-color: orangered;
+    box-shadow: 0 0 25px orangered;
+    color: white;
+}
+
+
+::-webkit-scrollbar{
+    width:15px;
+}
+
+
+::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgba(0,0,0,0.6);
+    width:50px;
+}
+
+
+
+
+
+.about{
+    padding-top: 100px;
+
+}
+
+.about-con{
+    height:180px;
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.about-text{
+    color:black;
+    text-align: center;
+    font-size: medium;
+    font-weight:800;
+
+}
+
+.projects{
+    height:750px;
+    
+    padding-top: 50px;
+    
+    
+    
+    
+    
+}
+
+.content{
+    height:600px;
+    width:100%;
+    background-image:url("/portfolio/images/width_800.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.options{
+ display: flex;
+    justify-content: space-evenly;
+       
+    
+}
+
+
+
+.heading{
+    margin-bottom: 140px;
+    padding-top: 40px;
+    
+}
+
+h2{
+    font-size: 4rem;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+    text-align: center;
+    
+    
+}
+
+span{
+    color: orangered;
+}
+
+
+.options{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.amazon{
+    height:150px;
+    width:280px;
+    background-color: black;
+    border:2px solid black;
+    border-bottom-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    padding: 10px;
+    
+    
+    box-shadow: 3px 3px 3px 3px silver;
+
+    display: flex;
+    flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+   
+    
+    
+}
+
+
+
+
+.project-but{
+    
+    background-color: black;
+    color:white;
+    padding:4px;
+    font-size: 1.6rem;
+    height:40px;
+    
+    margin:0;
+    border-radius: 5px;
+    border-color: orangered;
+    box-shadow: 3px 3px 3px 0.1px orangered;
+    
+    font-weight: bolder;
+    transition: 0.3s ease;
+    
+
+}
+
+
+.project-but:hover{
+    color:orangered;
+    text-shadow: 0 0 25px orangered,
+                 0  0 50px orangered;
+    
+    transform: scale(1.1) translateY(-10px );
+
+}
+.project-but:active{
+    background-color: white;
+}
+
+
+
+
+.amazon a{
+
+    color:white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+p{
+    color:white;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.amazon a:hover{
+    color: orangered;
+    border-bottom: 2px solid orangered;
+    transform: scale(1.5) translateY(-6px);
+
+}
+
+
+
+
+
+
+
+.apnastole{
+    height:150px;
+    width:280px;
+    background-color: black;
+    border:2px solid black;
+    border-bottom-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    padding: 10px;
+    
+    
+    box-shadow: 3px 3px 3px 3px silver;
+
+    display: flex;
+    flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+   
+    
+    
+}
+
+
+
+
+
+.apnastole a{
+
+    color:white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+
+.apnastole a:hover{
+    color: orangered;
+    border-bottom: 2px solid orangered;
+    transform: scale(1.5) translateY(-6px);
+
+}
+
+
+
+
+
+
+.objective-questions{
+    height:150px;
+    width:280px;
+    background-color: black;
+    border:2px solid black;
+    border-bottom-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    padding: 10px;
+    
+    
+    box-shadow: 3px 3px 3px 3px silver;
+
+    display: flex;
+    flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+   
+    
+    
+}
+
+
+
+
+.objective-questions a{
+
+    color:white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+
+.objective-questions a:hover{
+    color: orangered;
+    border-bottom: 2px solid orangered;
+    transform: scale(1.5) translateY(-6px);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    position: relative;
+    bottom:0;
+    width:100%;
+    padding:40px 0;
+
+    background-color:black;
+
+}
+
+
+
+.social a { 
+
+    
+     font-size: 24px;
+    color:white;
+    border:2px solid orangered;
+    width:40px;
+    height:40px;
+    line-height:38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+     box-shadow:inset 0 0 10px orangered,0 0 10px orangered ;
+     transition: 0.3s ease;
+
+
+}
+
+
+
+.footer .social a:hover{
+    transform: scale(1.3) translateY(-10px);
+    color:orangered;
+    border:2px solid orangered;
+}
+
+.footer ul{
+    margin-top:0;
+    padding:0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom:0;
+    text-align: center;
+}
+
+.footer ul li a{
+    color:white;
+    border-bottom: 3px  solid transparent;
+    transition: 0.3s ease;
+}
+
+.footer ul li a:hover{
+    border-bottom:3px solid orangered;
+
+}
+
+.footer ul li{
+    display: inline-block;
+    padding:0 15px;
+
+}
+
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color:white;
+}

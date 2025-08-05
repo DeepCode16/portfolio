@@ -1,0 +1,332 @@
+
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+
+/* this is top part of the page which must be   show in desktop mode or a desktop */      /* this is top part of the page which must be   show in desktop mode or a desktop */              /* this is top part of the page which must be   show in desktop mode or a desktop */                           /* this is top part of the page which must be   show in desktop mode or a desktop */
+
+
+
+
+#top{
+    display:flex;
+    justify-content: space-between ;
+    align-items: center;
+
+    height: 40px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 4px 5px rgba(0,0,0,0.1);
+    padding: 5px 0px;
+    
+    padding-left: 10px;
+    
+}
+
+header{
+    
+    padding-top:30px #f5f5f5;
+    
+    padding-left: 40px;
+    height: 10px;
+    width: 400px;
+    line-height: 40px;
+    
+}
+
+.jyate{ 
+    
+
+
+      height: 40px;
+      width: 15px;
+      border-color:3px #f5f5f5; 
+      background-image: url("jyate.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      box-shadow: none;
+      padding-right: 10px;
+      
+}
+
+
+
+
+
+
+
+.youtube{
+
+    
+    /* display: flex; */
+
+    text-align: 10px right;
+      height: 30px;
+      width: 30px;
+      padding-top: 10px;
+      border-radius: 50%;
+      border-color:3px #f5f5f5; 
+      background-image: url("youtube.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-right: 10px;
+      margin-left: 1230px;
+}
+
+
+.facebook{
+    
+     /* display: flex; */
+     
+     
+     
+    
+      height: 30px;
+      width: 30px;
+      padding-top: 10px;
+      border-radius: 50%;
+      border-color:3px #f5f5f5; 
+      background-image: url("face.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-right: 50px;
+}
+.instagram{
+
+    /* display: flex; */
+     
+    
+    
+
+
+
+    
+      height: 40px;
+      width: 40px;
+      padding-top: 0px;
+      border-radius: 50%;
+      border-color:3px #f5f5f5; 
+      background-image: url("insta.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+      
+      
+}
+
+
+.twitter{
+
+
+    /* display: flex; */
+     
+    
+    
+
+
+
+    
+      height: 40px;
+      width: 40px;
+      
+      border-radius: 50%;
+      border-color:3px #f5f5f5; 
+      background-image: url("twitter.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+}
+
+
+
+
+/* this is search bar */
+.search-icon{
+    
+      height: 40px;
+      width: 40px;
+      
+      border-radius: 50%;
+      border-color:3px #f5f5f5; 
+      background-image: url("search logo.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+
+}
+
+/* this next  */
+    
+
+
+
+
+
+
+
+div{
+    height: 90px;
+     box-shadow:0px 0px 4px 1.5px rgba(0,0,0,0.1);
+     
+
+    
+}
+
+#boxlogo{
+
+    height: 90px;
+    width: 90px;
+    background-image: url("logo.png");
+    box-shadow: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+   
+}
+
+#heading{
+    height: 20px;
+    width: 700px;
+      font-size: large;
+    font-weight: 800;
+     word-break: break-all;
+    color: rgb(49, 147, 246);
+    box-shadow: none;
+    display: inline-block;
+    justify-content: space-between;
+    font-size: medium;
+    
+    text-transform: capitalize;
+    
+    margin-left: 92px;
+    padding-top: 15px;
+}
+
+
+
+
+
+/* 
+ 
+.swachicon{
+
+
+      height: 90px;
+      width: 90px;
+      align-self: center;
+      border-radius: 50%;
+      
+      background-image: url("swach bharat.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+      
+
+}   */
+
+/* .azadiicon{
+
+
+      height: 90px;
+      width: 90px;
+      align-self: center;
+      border-radius: 50%;
+      
+      background-image: url("75.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+
+}  */
+
+/* .g20icon{
+
+
+      height: 90px;
+      width: 90px;
+      align-self: center;
+      border-radius: 50%;
+      
+      background-image: url("g20logo.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+
+} */
+
+
+
+
+   
+/* navbar styling  */       /* navbar styling  */     /* navbar styling  */     /* navbar styling  */     /* navbar styling  */          /* navbar styling  */           /* navbar styling  */
+ 
+
+
+.navbar{
+    height: 50px;
+    background-color: #f5f5f5;
+
+}
+
+ul{
+    
+    display: flex;
+    justify-content: space-evenly;
+padding-top: 15px;
+     list-style-type: none;
+    
+    
+
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* this focus it works when you have  to see your previous visited section */
+
+a:focus{
+    color: rgb(80, 163, 246);
+}
+
+
+
+/* this is hover it works when you want to just scrolling your curser above the any  section just highlight them that can easily visible and unique */
+
+
+
+a:hover{
+    color:blue;
+    background-color: greenyellow;
+    box-shadow: gold;
+}
+
+/* when you click this section immediately it would be highlight as aqua color */
+
+
+a:active{
+    color:aqua;
+}
+
+
+li{
+    display: inline;
+    
+}
+
